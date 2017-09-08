@@ -1,5 +1,5 @@
 # PosTechTask
-Тестовая работа для компании Positive Technologies
+Тестовая работа для компании Positive Technologies. Для корректной работы необходим python 3.
 
 Модуль в качестве аргумента ожидает строку "program" с именем программы, версию которой нужно посмотреть. Вывод сделан для libreoffice. Для других программ корректный вывод не гарантируется.
 
@@ -10,4 +10,4 @@
 2) Как отдельный модуль:
     - запускать как "ansible -i hosts -m get_version -a "program=libreoffice" all"
 3) C помощью API:
-    - запускать python3 play.py
+    - запускать python play.py
