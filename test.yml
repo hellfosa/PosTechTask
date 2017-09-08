@@ -1,0 +1,7 @@
+- hosts: test
+  tasks:
+    - name: Test that my module works
+      get_version: program='libreoffice'
+      register: result
+
+    - debug: var=result
